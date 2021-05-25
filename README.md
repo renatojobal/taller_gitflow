@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+## Git en equipo
+## Repaso de cómo funciona git (40 m)
 
-You can use the [editor on GitHub](https://github.com/renatojobal/taller_gitflow/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Git stage (5 m)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Explicar como funciona git desde que un archivo es modificado hasta que se hace la confirmación (commit)
 
-### Markdown
+## Git commits (2 m)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Git merge (2m)
 
-```markdown
-Syntax highlighted code block
+## Git push (3 m)
 
-# Header 1
-## Header 2
-### Header 3
+## Git tag (10 m)
 
-- Bulleted
-- List
+Explicar en que casos ayuda usar tags
 
-1. Numbered
-2. List
+## Git branchs (20 m)
 
-**Bold** and _Italic_ and `Code` text
+Crear ramas
 
-[Link](url) and ![Image](src)
-```
+Eliminar ramas
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Traer ramas en remoto
 
-### Jekyll Themes
+## Git flow (120 m)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/renatojobal/taller_gitflow/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Explicar como funcionan las ramas dentro de Gitflow:
 
-### Support or Contact
+- master
+- development
+- release
+- hotfix
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Práctica (90 m)
+
+Instalar Gitflow
+
+Usando comandos con Gitflow
+
+Trabajar en un repositorio compartido
+
+Enlace: []
+
+El repositorio será una página web creada con github pages que hable sobre los comandos en git. Cada estudiante deberá escoger un comando y poner una breve descripción. Esto deberá hacerse siguiendo el flujo de Gitflow. , además colocar su nombre en la sección de colaboradores.
+
+## Comandos extras en funcionamiento (10 m)
+
+### Git stash
+
+### Git rebase
