@@ -60,19 +60,73 @@ En el comando anterior las banderas que usamos -a y -m, son abreviaciones de —
 
 Git merge mezcla dos versiones de nuestros archivos. Por ejemplo ahora vamos a traer los cambios del repositorio en la nube, es decir, de GitHub y mezclarlo con el nuestro.
 
+Primero corremos el comando:
+
+`git fetch`
+
+Salida:
+
+![images/readme/Untitled%204.png](images/readme/Untitled%204.png)
+
+Luego el comando:
+
+`git merge`
+
+Salida:
+
+![images/readme/Untitled%205.png](images/readme/Untitled%205.png)
+
 ## Git push (3 m)
+
+Nos sirve para enviar nuestros cambios de la rama actual a un repositorio remoto.
 
 ## Git tag (10 m)
 
-Explicar en que casos ayuda usar tags
+Nos sirve para etiquetar nuestros commits, es muy útil para organizarnos entre versiones. Existen dos tipos de etiquetas en git: **lightweight** y **annotated**.
+
+Una etiqueta **lightweight** es muy parecida a una rama que no cambia, es solo un puntero a una confirmación específica.
+
+Sin embargo, las etiquetas **annotated** se almacenan como objetos completos en la base de datos de Git. Están sumados a la suma de verificación; contener el nombre del etiquetador, el correo electrónico y la fecha; tener un mensaje de etiquetado; y se puede firmar y verificar con GNU Privacy Guard (GPG). En general, se recomienda que cree etiquetas con anotaciones para poder tener toda esta información.
+
+Para crear etiquetas annotated podemos usar:
+
+`git tag -a v1.4 -m "my version 1.4"`
+
+Y para crear etiquetas lightweight:
+
+`git tag v1.4-lw`
+
+- Más información en: [https://git-scm.com/book/en/v2/Git-Basics-Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
 ## Git branchs (20 m)
 
-Crear ramas
+Crear ramas:
 
-Eliminar ramas
+`git branch experiment`
 
-Traer ramas en remoto
+Listar todas las ramas:
+
+`git branch -al`
+
+![images/readme/Untitled%206.png](images/readme/Untitled%206.png)
+
+Eliminar ramas:
+
+Nos cambiamos a la rama `main`
+
+`git checkout main`
+
+Eliminamos la rama creada previamente:
+
+`git branch -D experiment`
+
+![images/readme/Untitled%207.png](images/readme/Untitled%207.png)
+
+Traer ramas en remoto:
+
+`git pull origin main`
+
+![images/readme/Untitled%208.png](images/readme/Untitled%208.png)
 
 ## Git flow (120 m)
 
