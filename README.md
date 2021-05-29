@@ -98,7 +98,7 @@ Y para crear etiquetas lightweight:
 
 - Más información en: [https://git-scm.com/book/en/v2/Git-Basics-Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-## Git branchs (20 m)
+## Git branches (20 m)
 
 Crear ramas:
 
@@ -136,21 +136,31 @@ Explicar como funcionan las ramas dentro de Gitflow:
 - development
 - release
 - hotfix
+- feature
 
-Práctica (90 m)
+Tutorial oficial:
 
-Instalar Gitflow
+[https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
 
-Usando comandos con Gitflow
-
-Trabajar en un repositorio compartido
-
-Enlace: []
-
-El repositorio será una página web creada con github pages que hable sobre los comandos en git. Cada estudiante deberá escoger un comando y poner una breve descripción. Esto deberá hacerse siguiendo el flujo de Gitflow. , además colocar su nombre en la sección de colaboradores.
-
-## Comandos extras en funcionamiento (10 m)
+## Comandos extras (10)
 
 ### Git stash
 
 ### Git rebase
+
+
+Autores:
+
+- .
+- .
+- .
+- .
+- .
+- .
+- .
+- .
+- .
+- .
+- .
+- .
+- .
