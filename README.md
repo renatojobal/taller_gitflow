@@ -96,7 +96,7 @@ Y para crear etiquetas lightweight:
 
 `git tag v1.4-lw`
 
-- Más información en: [https://git-scm.com/book/en/v2/Git-Basics-Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+> Más información en: [https://git-scm.com/book/en/v2/Git-Basics-Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
 ## Git branches (20 m)
 
