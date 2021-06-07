@@ -140,7 +140,7 @@ Explicar como funcionan las ramas dentro de Gitflow:
 
 Tutorial oficial:
 
-[https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
+[Flujo de trabajo de Gitflow](https://www.atlassian.com/es/git/tutorials/comparing-workflows/gitflow-workflow)
 
 ## Comandos extras (10)
 
